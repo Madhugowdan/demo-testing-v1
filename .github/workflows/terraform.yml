@@ -2,10 +2,10 @@ name: "Terraform Infrastructure Change Management Pipeline with GitHub Actions"
  
 on:  #trigger
  push:  # if there is a push trigger
-   branches:
-   - main
-   paths:
-   - terraform/**  # any chnages on this path
+  #  branches:
+  #  - main
+  #  paths:
+  #  - terraform/**  # any chnages on this path
  pull_request:   # if there is a pull_request triggerd
    branches:
    - main
